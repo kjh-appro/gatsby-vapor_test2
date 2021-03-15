@@ -20,9 +20,9 @@
     position: fixed;
     align-content: left;
     text-align: center;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-bottom: 0px; 
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 220px; 
     background-color: grey;
     width: 100%;
@@ -116,7 +116,7 @@
     border: 0.0625em solid var(--color-postcard);
     border-radius: 0.3em;
     box-shadow: 0 0.0625em 0.25em var(--color-postcard);
-    margin-top: 3em;
+    margin-top: 100px;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
     cursor: default;
