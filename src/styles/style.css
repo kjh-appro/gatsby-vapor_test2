@@ -18,10 +18,10 @@
 .header-container {
     
     position: fixed;
-    align-content: center;
+    align-content:flex-start;
     text-align: center;
     margin-top: -10px;
-    margin-left: -350px;
+    margin-left: -500px;
     padding-left: 50px;
     margin-bottom: 0px; 
     background-color: grey;
