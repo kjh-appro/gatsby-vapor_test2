@@ -20,7 +20,7 @@ main.site-container {
 
 /* Layout-Header */
 .header-container {
-    display: flex;
+    display: block;
     position: fixed;
     align-content: left;
     text-align: center;
