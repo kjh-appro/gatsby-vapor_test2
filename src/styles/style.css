@@ -18,18 +18,17 @@
 .header-container {
 
     position: fixed;
-    align-content: left;
     margin-top: -20px;
     margin-left: 0px;
     margin-bottom: 0px; 
     background-color: black;
     width: 100%;
-    z-index: 1;
     float:left;
 }
 @media (max-width: 100%) {
     .header-container {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        flex-flow: row;
     }
 
     #header-nav-first {
