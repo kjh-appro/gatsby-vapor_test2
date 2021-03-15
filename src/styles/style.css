@@ -16,13 +16,12 @@
 
 /* Layout-Header */
 .header-container {
-    
+    display: flex;
     position: fixed;
     align-content: center;
     text-align: center;
     margin-top: -10px;
-    margin-left: -100;
-    padding-left: 50px;
+    margin-left: -100px;
     margin-bottom: 0px; 
     background-color: grey;
     width: 100%;
@@ -30,7 +29,7 @@
     z-index: 5;
 
 }
-@media (max-width: 400em) {
+@media (max-width: 100em) {
     .header-container {
         flex-wrap: wrap;
         flex-flow: row;
