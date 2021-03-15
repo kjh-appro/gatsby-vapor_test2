@@ -18,7 +18,7 @@
 .header-container {
     display: blocked;
     position: fixed;
-    align-content: left;
+    align-content: center;
     text-align: center;
     margin: 0px;
     background-color: grey;
