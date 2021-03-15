@@ -16,13 +16,13 @@
 
 /* Layout-Header */
 .header-container {
-    
     position: fixed;
     align-content: center;
+    text-align: center;
     margin-top: -10px;
     margin-bottom: 0px; 
     background-color: grey;
-    width: 100%;
+    width: 1200px;
     float:left;
     transition: all 3s;
 }
