@@ -20,10 +20,10 @@
     align-content: left;
     text-align: center;
     margin-top: -10px;
-    margin-bottom: 0px; 
+    margin-bottom: 100px; 
     background-color: grey;
     width: 100%;
-    float: left;
+    float: center;
 
 }
 @media (max-width: 400em) {
