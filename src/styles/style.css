@@ -16,21 +16,14 @@
 
 /* Layout-Header */
 .header-container {
-
-    position: fixed;
-    margin-top: -20px;
-    margin-left: 0px;
-    margin-bottom: 0px; 
-    background-color: black;
-    width: 100%;
-    float:left;
+    display: flex;
+    align-items: baseline;
+    margin: 0px 0.5em;   
 }
-@media (max-width: 100%) {
+@media (max-width: 540px) {
     .header-container {
         flex-wrap: wrap;
-        flex-flow: row;
     }
-
     #header-nav-first {
         margin-left: 0em;
     }
@@ -60,7 +53,6 @@
     width: 100%;
     justify-content: space-between;
     font-size: 0.875em;
-    color: white;
 }
 
 .header-nav {
