@@ -17,13 +17,17 @@
 /* Layout-Header */
 .header-container {
     display: flex;
-    align-items: baseline;
-    margin: 0px 0.5em;   
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 0px; 
+    background-color: black;
 }
-@media (max-width: 540px) {
+@media (max-width: 100%) {
     .header-container {
         flex-wrap: wrap;
     }
+
     #header-nav-first {
         margin-left: 0em;
     }
@@ -53,6 +57,7 @@
     width: 100%;
     justify-content: space-between;
     font-size: 0.875em;
+    color: white;
 }
 
 .header-nav {
