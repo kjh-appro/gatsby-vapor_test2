@@ -26,7 +26,7 @@
     background-color: grey;
     width: 1200px;
     float:left;
-    transition: all 3s;
+    z-index: 5;
 
 }
 @media (max-width: 100rem) {
