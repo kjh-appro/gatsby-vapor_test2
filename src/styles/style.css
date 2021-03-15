@@ -14,17 +14,13 @@
     max-width: 45rem;
 }
 
-main.site-container {
-    padding-top: 400px;
-}
-
 /* Layout-Header */
 .header-container {
     display: flex;
     position: fixed;
     align-content: left;
     text-align: center;
-    margin: 0;
+    margin-top: 0;
     height: 200px;
     background-color: grey;
     width: 100%;
