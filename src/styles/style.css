@@ -16,6 +16,7 @@
 
 /* Layout-Header */
 .header-container {
+    display: block;
     position: fixed;
     align-content: left;
     text-align: center;
@@ -26,7 +27,7 @@
     float: left;
 
 }
-@media (max-width: 600em) {
+@media (max-width: 400rem) {
     .header-container {
         flex-wrap: wrap;
         flex-flow: row;
