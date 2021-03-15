@@ -9,7 +9,7 @@
 }
 
 .site-container {
-    margin: auto;
+    margin: 200 0 0 0;
     padding: auto;
     max-width: 45rem;
 }
@@ -21,6 +21,7 @@
     align-content: left;
     text-align: center;
     margin-top: 0px;
+    padding-top: 10px;
     margin-bottom: 100px;
     background-color: grey;
     width: 100%;
