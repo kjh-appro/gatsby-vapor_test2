@@ -9,19 +9,19 @@
 }
 
 .site-container {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     max-width: 45rem;
 }
 
 /* Layout-Header */
 .header-container {
-    display: flex;
     position: fixed;
     align-content: left;
     text-align: center;
-    margin-top: 0;
-    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    padding-bottom: 220px; 
     background-color: grey;
     width: 100%;
     float: left;
