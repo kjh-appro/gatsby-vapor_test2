@@ -17,6 +17,7 @@
 /* Layout-Header */
 .header-container {
     display: flex;
+    position: fixed;
     align-items: baseline;
     margin: 0px 0.5em;   
 }
