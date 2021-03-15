@@ -16,7 +16,6 @@
 
 /* Layout-Header */
 .header-container {
-    display: block;
     position: fixed;
     align-content: left;
     text-align: center;
