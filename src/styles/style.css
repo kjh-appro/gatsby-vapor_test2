@@ -28,7 +28,7 @@
     float: left;
 
 }
-@media (max-width: 100em) {
+@media (max-width: 400em) {
     .header-container {
         flex-wrap: wrap;
         flex-flow: row;
