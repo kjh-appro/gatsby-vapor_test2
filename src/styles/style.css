@@ -21,16 +21,15 @@
     align-content: center;
     text-align: center;
     margin-top: -10px;
-    margin-left: -300px;
+    margin-left: -350px;
     padding-left: 50px;
     margin-bottom: 0px; 
     background-color: grey;
-    width: 1900px;
     float:left;
     z-index: 5;
 
 }
-@media (max-width: 100rem) {
+@media (max-width: 200rem) {
     .header-container {
         flex-wrap: wrap;
         flex-flow: row;
