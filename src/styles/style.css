@@ -19,7 +19,9 @@
     display: flex;
     position: fixed;
     align-items: baseline;
-    margin-top: 0.5em;
+    align-content: center;
+    margin-top: 0em;
+    margin-left: 0em;
     margin-bottom: 1em; 
     background-color: black;
     width: 100%;
