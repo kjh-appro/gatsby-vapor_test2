@@ -18,7 +18,7 @@
 .header-container {
     
     position: fixed;
-    align-content:flex-start;
+    align-content: center;
     text-align: center;
     margin-top: -10px;
     margin-left: -500px;
@@ -29,7 +29,7 @@
     z-index: 5;
 
 }
-@media (max-width: 200rem) {
+@media (max-width: 300rem) {
     .header-container {
         flex-wrap: wrap;
         flex-flow: row;
