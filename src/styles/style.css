@@ -20,12 +20,11 @@
     position: fixed;
     align-content: center;
     margin-top: -10px;
-    margin-left: -50px;
     margin-bottom: 0px; 
     background-color: grey;
     width: 100%;
-    z-index: 3;
     float:left;
+    transition: all 3s;
 }
 @media (max-width: 100%) {
     .header-container {
