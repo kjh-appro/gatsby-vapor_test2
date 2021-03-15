@@ -28,7 +28,7 @@
     z-index: 5;
 
 }
-@media (max-width: 500rem) {
+@media (max-width: 400em) {
     .header-container {
         flex-wrap: wrap;
         flex-flow: row;
