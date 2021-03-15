@@ -23,11 +23,12 @@
     margin-bottom: 1em; 
     background-color: black;
     width: 100%;
-    transition: all 3s;
+    width: 100%;
+    z-index: 2;
 }
 @media (max-width: 100%) {
     .header-container {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     #header-nav-first {
