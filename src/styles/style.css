@@ -16,8 +16,9 @@
 
 /* Layout-Header */
 .header-container {
-    display: blocked;
+    display: flex;
     position: fixed;
+    align-content: center;
     text-align: center;
     margin: 0px;
     background-color: grey;
@@ -30,7 +31,7 @@
 @media (max-width:  100%) {
     .header-container {
         flex-wrap: wrap;
-        flex-flow: row;
+     
     }
 
     #header-nav-first {
