@@ -18,13 +18,13 @@
 .header-container {
     
     position: fixed;
-    align-content: left;
-    margin-top: -20px;
-    margin-left: -300px;
+    align-content: center;
+    margin-top: -10px;
+    margin-left: -50px;
     margin-bottom: 0px; 
     background-color: grey;
     width: 100%;
-    z-index: 5;
+    z-index: 3;
     float:left;
 }
 @media (max-width: 100%) {
