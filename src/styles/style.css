@@ -10,13 +10,12 @@
 
 .site-container {
     margin: 0;
-    padding: auto;
+    padding: 0;
     max-width: 45rem;
 }
 
 /* Layout-Header */
 .header-container {
-    display: flex;
     position: fixed;
     align-content: center;
     text-align: center;
