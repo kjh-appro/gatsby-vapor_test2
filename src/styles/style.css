@@ -16,7 +16,6 @@
 
 /* Layout-Header */
 .header-container {
-    display: flex;
     position: fixed;
     align-content: center;
     text-align: center;
