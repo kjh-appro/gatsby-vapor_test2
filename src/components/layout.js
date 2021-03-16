@@ -52,11 +52,6 @@ class Layout extends Component {
             </ul>
           </div>
         </div>
-        <div className="header-container">
-          <ul className="header-nav">
-            <li>2018</li><li>2019</li>
-            </ul>
-        </div>
         <main>{children}</main>
         <footer className="footer-copyright">
           © {new Date().getFullYear()} {title}, Built with
