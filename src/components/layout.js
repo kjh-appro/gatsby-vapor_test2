@@ -58,11 +58,15 @@ class Layout extends Component {
         <li><Link to={`/tags`}>2020</Link></li>
           </div>
         <main>{children}</main>
+        <div className="footer">
         <footer className="footer-copyright">
+          
           © {new Date().getFullYear()} {title}, Built with
           {` `}
           <a className="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a>
+          <li><Link to={`/tags`}>2018</Link></li>  <li><Link to={`/tags`}>2019</Link></li> <li><Link to={`/tags`}>2020</Link></li>
         </footer>
+        </div>
       </div>
     )
   }
