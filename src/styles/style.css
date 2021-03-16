@@ -16,11 +16,10 @@
 
 /* Layout-Header */
 .header-container {
-    display:flex;
     position: fixed;
     align-content: center;
     text-align: center;
-    margin: 0;
+    margin: -300;
     background-color: grey;
     width: 100%;
     float: left;
