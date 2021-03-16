@@ -59,9 +59,9 @@
     background-color: grey;
     position: fixed;
     width: 20px;
-    height: 100px;
-    float:right;
+    height: 300px;
   top: 50%;
+  float:left;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -118,6 +118,24 @@
 }
 
 /* Layout-Footer */
+.footer {
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+	padding: 15px 0;
+
+	text-align: center;
+
+	color: white;
+
+	background: black;
+}
 .footer-copyright {
     text-align: center;
     font-size: 0.875em;
