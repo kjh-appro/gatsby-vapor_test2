@@ -120,7 +120,7 @@
 /* Layout-Footer */
 .footer {
 
-    position: absolute;
+    position: fixed;
 
     left: 0;
 
