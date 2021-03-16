@@ -9,7 +9,7 @@
 }
 
 .site-container {
-    margin: 0;
+    margin: auto;
     padding: auto;
     max-width: 45rem;
 }
@@ -19,7 +19,7 @@
     display: flex;
     position: fixed;
     align-items: baseline;
-    margin: 0px 0.5em;   
+    margin: 0px 0em;   
     background-color: grey;
     width: 100%;
     float: left;
