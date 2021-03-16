@@ -21,6 +21,7 @@
     align-content: center;
     text-align: center;
     margin: 0;
+    height: 200;
     background-color: grey;
     width: 100%;
     float: left;
@@ -30,7 +31,7 @@
 }
 @media (max-width:  100%) {
     .header-container {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-flow: row;
     }
 
