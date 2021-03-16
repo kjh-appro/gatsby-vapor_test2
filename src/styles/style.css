@@ -10,7 +10,7 @@
 
 .site-container {
     margin: 0;
-    padding: 40;
+    padding: auto;
     max-width: 45rem;
 }
 
@@ -20,7 +20,7 @@
     position: fixed;
     align-content: center;
     text-align: center;
-    padding-top: -100;
+    margin: 0;
     background-color: grey;
     width: 100%;
     float: left;
