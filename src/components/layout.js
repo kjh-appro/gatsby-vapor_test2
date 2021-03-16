@@ -57,7 +57,6 @@ class Layout extends Component {
           © {new Date().getFullYear()} {title}, Built with
           {` `}
           <a className="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a>
-        
         </footer>
       </div>
     )
