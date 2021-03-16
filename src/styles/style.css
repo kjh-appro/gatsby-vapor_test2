@@ -57,9 +57,10 @@
 
 #aside-bar {
     background-color: grey;
-    position: sticky;
+    position: fixed;
     width: 20px;
     height: 100px;
+    float:right;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
