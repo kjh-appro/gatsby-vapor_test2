@@ -10,7 +10,7 @@
 
 .site-container {
     margin: 0;
-    padding: 0;
+    padding: 40;
     max-width: 45rem;
 }
 
@@ -19,7 +19,7 @@
     position: fixed;
     align-content: center;
     text-align: center;
-    margin: 0;
+    margin-top: -100;
     background-color: grey;
     width: 100%;
     float: left;
@@ -29,7 +29,7 @@
 }
 @media (max-width:  100%) {
     .header-container {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-flow: row;
     }
 
