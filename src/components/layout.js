@@ -52,6 +52,11 @@ class Layout extends Component {
             </ul>
           </div>
         </div>
+        <div className="aside-bar">
+        <li><Link to={`/tags`}>2018</Link></li>
+        <li><Link to={`/tags`}>2019</Link></li>
+        <li><Link to={`/tags`}>2020</Link></li>
+          </div>
         <main>{children}</main>
         <footer className="footer-copyright">
           © {new Date().getFullYear()} {title}, Built with
