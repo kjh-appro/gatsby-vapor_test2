@@ -56,12 +56,15 @@
 }
 
 #aside-bar {
-    position: sticky;
-    top: 0;
     background-color: grey;
-    width: 50px;
-    height: 150px;
-    float:right;
+    position: sticky;
+    width: 20px;
+    height: 100px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right:calc(50% - 460px); /* right:calc(50% - social bar width/2) */
   
   }
   
