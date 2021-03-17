@@ -119,8 +119,7 @@
 
 /* Layout-Footer */
 .footer-bar {
-
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     margin:0;
@@ -130,7 +129,7 @@
 	padding: 0;
 	text-align: center;
 	color: white;
-	background: black;
+	background-color: black;
 }
 
 #footer-bar li ul {
