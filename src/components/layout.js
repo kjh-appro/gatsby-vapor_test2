@@ -58,34 +58,17 @@ class Layout extends Component {
         <li><Link to={`/tags`}>2020</Link></li>
           </div>
         <main>{children}</main>
-        <div className="footerbar">
-          <div className="footerbarMenu">
-          <ul>
-          <li>2009
-          <ul>
-          <li><a>2009.5.16</a></li>  
-          </ul>
-          </li>
-          </ul>
-          <ul>
-          <li>2011
-          <ul>
-          <li><a>2011.6.8-2012.2.28</a></li>  
-          <li><a>2011.9.5-12.15</a></li> 
-          </ul>
-          </li>
-          </ul>
-          <ul>
-          <li>2012
-          <ul>
-          <li><a>2012.4.3-10.12</a></li>  
-          <li><a>2012.9.3-12.13</a></li> 
-          <li><a>2012.5.14</a></li> 
-          <li><a>2012.7.28</a></li> 
-          </ul>
-          </li>
-          </ul>
-          </div>
+        <div className="footer">
+          <button className="footerbtn">2009</button>
+          <a href="#">2009.5.16</a> 
+          <button className="footerbtn">2011</button>
+          <a href="#">2011.6.8-2012.2.28</a> 
+          <a href="#">2011.9.5-12.15</a>
+          <button className="footerbtn">2012</button>
+          <a href="#">2012.4.3-10.12</a>  
+          <a href="#">2012.9.3-12.13</a> 
+          <a href="#">2012.5.14</a> 
+          <a href="#">2012.7.28</a> 
         </div>
       </div>
     )
