@@ -59,6 +59,7 @@ class Layout extends Component {
           </div>
         <main>{children}</main>
         <div className="footer">
+          <div className="dropup">
           <button className="footerbtn">2009</button>
           <div className="dropup-content">
           <a href="#">2009.5.16</a> 
@@ -75,6 +76,7 @@ class Layout extends Component {
           <a href="#">2012.5.14</a> 
           <a href="#">2012.7.28</a> 
           </div>
+        </div>
         </div>
       </div>
     )
