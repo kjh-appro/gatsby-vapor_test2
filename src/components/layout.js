@@ -58,7 +58,7 @@ class Layout extends Component {
         <li><Link to={`/tags`}>2020</Link></li>
           </div>
         <main>{children}</main>
-        <div ID="footer-bar">
+        <div className="footerbar">
           <ul>
           <li>2009
           <ul>
