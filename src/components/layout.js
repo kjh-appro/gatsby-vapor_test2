@@ -58,14 +58,32 @@ class Layout extends Component {
         <li><Link to={`/tags`}>2020</Link></li>
           </div>
         <main>{children}</main>
-        <div className="footer">
-        <footer className="footer-copyright">
-          
-          © {new Date().getFullYear()} {title}, Built with
-          {` `}
-          <a className="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a>
-          <li><Link to={`/tags`}>2018</Link></li>  <li><Link to={`/tags`}>2019</Link></li> <li><Link to={`/tags`}>2020</Link></li>
-        </footer>
+        <div ID="footer-bar">
+          <ul>
+          <li>2009
+          <ul>
+          <li><Link to={`/tags`}><a>2009.5.16</a></Link></li>  
+          </ul>
+          </li>
+          </ul>
+          <ul>
+          <li>2011
+          <ul>
+          <li><Link to={`/tags`}><a>2011.6.8-2012.2.28</a></Link></li>  
+          <li><Link to={`/tags`}><a>2011.9.5-12.15</a></Link></li> 
+          </ul>
+          </li>
+          </ul>
+          <ul>
+          <li>2012
+          <ul>
+          <li><Link to={`/tags`}><a>2012.4.3-10.12</a></Link></li>  
+          <li><Link to={`/tags`}><a>2012.9.3-12.13</a></Link></li> 
+          <li><Link to={`/tags`}><a>2012.5.14</a></Link></li> 
+          <li><Link to={`/tags`}><a>2012.7.28</a></Link></li> 
+          </ul>
+          </li>
+          </ul>
         </div>
       </div>
     )
