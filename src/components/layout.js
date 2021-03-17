@@ -59,31 +59,33 @@ class Layout extends Component {
           </div>
         <main>{children}</main>
         <div className="footerbar">
+          <div className="footerbarMenu">
           <ul>
           <li>2009
           <ul>
-          <li><a><Link to={`/tags`}>2009.5.16</Link></a></li>  
+          <li><a>2009.5.16</a></li>  
           </ul>
           </li>
           </ul>
           <ul>
           <li>2011
           <ul>
-          <li><a><Link to={`/tags`}>2011.6.8-2012.2.28</Link></a></li>  
-          <li><a><Link to={`/tags`}>2011.9.5-12.15</Link></a></li> 
+          <li><a>2011.6.8-2012.2.28</a></li>  
+          <li><a>2011.9.5-12.15</a></li> 
           </ul>
           </li>
           </ul>
           <ul>
           <li>2012
           <ul>
-          <li><a><Link to={`/tags`}>2012.4.3-10.12</Link></a></li>  
-          <li><a><Link to={`/tags`}>2012.9.3-12.13</Link></a></li> 
-          <li><a><Link to={`/tags`}>2012.5.14</Link></a></li> 
-          <li><a><Link to={`/tags`}>2012.7.28</Link></a></li> 
+          <li><a>2012.4.3-10.12</a></li>  
+          <li><a>2012.9.3-12.13</a></li> 
+          <li><a>2012.5.14</a></li> 
+          <li><a>2012.7.28</a></li> 
           </ul>
           </li>
           </ul>
+          </div>
         </div>
       </div>
     )
