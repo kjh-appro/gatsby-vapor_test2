@@ -60,15 +60,21 @@ class Layout extends Component {
         <main>{children}</main>
         <div className="footer">
           <button className="footerbtn">2009</button>
+          <div className="dropup-content">
           <a href="#">2009.5.16</a> 
+          </div>
           <button className="footerbtn">2011</button>
+          <div className="dropup-content">
           <a href="#">2011.6.8-2012.2.28</a> 
           <a href="#">2011.9.5-12.15</a>
+          </div>
           <button className="footerbtn">2012</button>
+          <div className="dropup-content">
           <a href="#">2012.4.3-10.12</a>  
           <a href="#">2012.9.3-12.13</a> 
           <a href="#">2012.5.14</a> 
           <a href="#">2012.7.28</a> 
+          </div>
         </div>
       </div>
     )
