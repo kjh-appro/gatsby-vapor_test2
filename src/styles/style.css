@@ -2,6 +2,7 @@
 @import "normalize.css";
 
 /* Layout */
+
 .contour {
     border: 0em;
     height: 0.0625rem;
@@ -55,12 +56,12 @@
     letter-spacing: 0em;
 }
 
-.topBtn {
-    cursor:pointer;
-    float: right;
-    bottom: 0px;
+a#topBtn {
+    right: 2%;
+    bottom: 5px;
     position: fixed;
-	color: black;
+    display: none;
+    z-index: 9999;
 }
 
 #aside-bar {
@@ -127,7 +128,6 @@
 
 /* Layout-Footer */
 .footer {
-	display: none;
     position: fixed;
     left: 0;
     right: 0;
