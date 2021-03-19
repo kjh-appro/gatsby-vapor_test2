@@ -55,7 +55,7 @@ class Layout extends Component {
         <div ID="aside-bar">
         <li><Link to={`/tags`}>2018</Link></li>
         <li><Link to={`/tags`}>2019</Link></li>
-        <li onClick="window.scrollTo(0,0);">TOP</li>
+        <li><p ID="aside-bar" onClick="window.scrollTo(0,0);">TOP</p></li>
           </div>
         <main>{children}</main>
         <div className="footer">
