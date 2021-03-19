@@ -60,7 +60,6 @@ a#topBtn {
     right: 2%;
     bottom: 5px;
     position: fixed;
-    display: none;
     z-index: 9999;
 }
 
