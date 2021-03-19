@@ -55,6 +55,13 @@
     letter-spacing: 0em;
 }
 
+.topBtn {
+    cursor:pointer;
+    float: right;
+    bottom: 10px;
+    position: sticky;
+}
+
 #aside-bar {
     background-color: grey;
     position: fixed;
