@@ -57,6 +57,8 @@ class Layout extends Component {
         <li><Link to={`/tags`}>2019</Link></li>
         <li><Link to={`/tags`}>2020</Link></li>
           </div>
+
+        <div className=".topBtn" onclick="window.scrollTo(0,0);">TOP</div>
         <main>{children}</main>
         <div className="footer">
           <div className="dropup">
