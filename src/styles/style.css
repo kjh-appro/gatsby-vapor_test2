@@ -59,7 +59,7 @@
     cursor:pointer;
     float: right;
     bottom: 0px;
-    position: sticky;
+    position: fixed;
 	color: black;
 }
 
