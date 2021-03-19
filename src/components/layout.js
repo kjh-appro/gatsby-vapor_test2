@@ -52,12 +52,6 @@ class Layout extends Component {
             </ul>
           </div>
         </div>
-        <div ID="aside-bar">
-        <li><Link to={`/tags`}>2018</Link></li>
-        <li><Link to={`/tags`}>2019</Link></li>
-        <li><Link to={`/tags`}>2020</Link></li>
-          </div>
-
         <div className=".topBtn" onclick="window.scrollTo(0,0);">TOP</div>
         <main>{children}</main>
         <div className="footer">
