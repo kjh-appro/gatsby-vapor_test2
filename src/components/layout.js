@@ -52,9 +52,6 @@ class Layout extends Component {
             </ul>
           </div>
         </div>
-        <div className="header-img">
-          img is here..........
-        </div>
         <div ID="aside-bar" onClick="window.scrollTo(0,0);">
         <li><a href="#">TOP1</a></li>
         <li><a href="#">TOP2</a></li>
