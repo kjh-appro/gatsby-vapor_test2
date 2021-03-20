@@ -57,10 +57,11 @@ class Layout extends Component {
         <div ID="aside-bar" onClick="window.scrollTo(0,0);">
         <li><a href="#">TOP1</a></li>
         <li><a href="#">TOP2</a></li>
-        <div className="header-2">
-        <img src=".src/images/header-img.png" alt="header-img">
-        </div>
-          </div>
+    <div className="header-2">
+    <img src={ require('./src/images/header-img.png') } />
+    </div>
+        
+      </div>
         <main>{children}</main>
         <div className="footer">
           <div className="dropup">
