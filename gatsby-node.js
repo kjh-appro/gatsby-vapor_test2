@@ -3,8 +3,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require("lodash");
 const HEADER_MAX_HEIGHT = 200;
 const HEADER_MIN_HEIGHT = 60;
-
-
+const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
