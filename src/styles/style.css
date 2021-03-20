@@ -42,34 +42,8 @@
     color: inherit;
 }
 
-.header-img {
-    display: flex;
-    position: fixed;
-    align-items: baseline;
-    text-align: center;
-    margin: 0px 0em;   
-    background-color: grey;
-    width: 100%;
-    float: left;
-    left: 0;
-    right: 0;
-}
-@media (max-width: 540px) {
-    .header-container {
-        flex-wrap: wrap;
-    }
-    #header-nav-first {
-        margin-left: 0em;
-    }
-}
-
-.header-img a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.header-img div::selection,
-.header-img a::selection {
+.header-container div::selection,
+.header-container a::selection {
     background: transparent;
 }
 
