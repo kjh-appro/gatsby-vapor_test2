@@ -31,10 +31,6 @@ class Layout extends Component {
       </div>
     )
 
-    
-    
-
-
     return (
       <div className="site-container">
         <div className="header-container">
@@ -43,7 +39,6 @@ class Layout extends Component {
             to={`/`}
           >
             {title}
-            
           </Link>
           <div className="nav-container">
             <ul className="header-nav">
@@ -56,12 +51,9 @@ class Layout extends Component {
               <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
           </div>
-          <ScrollView></ScrollView>
-          <Animated.View style={styles.header}>
-            <View style={styles.bar}>
-              <Text style={styles.title}>Title</Text>
-            </View>
-          </Animated.View>
+        </div>
+        <div className="header-img">
+          img is here..........
         </div>
         <div ID="aside-bar" onClick="window.scrollTo(0,0);">
         <li><a href="#">TOP1</a></li>
@@ -88,7 +80,6 @@ class Layout extends Component {
           </div>
         </div>
         </div>
-        
       </div>
     )
   }
