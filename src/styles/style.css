@@ -2,6 +2,7 @@
 @import "normalize.css";
 
 /* Layout */
+
 .contour {
     border: 0em;
     height: 0.0625rem;
@@ -60,13 +61,14 @@
     position: fixed;
     width: 20px;
     height: 300px;
+    display: block;
   top: 50%;
   float:left;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   right:calc(50% - 460px); /* right:calc(50% - social bar width/2) */
-  
+  cursor: pointer;
   }
   
   @media screen and (max-width:767px) {
@@ -128,6 +130,7 @@
 	padding: 0;
 	color: white;
 	background-color: black;
+    display: block;
 }
 
 .footerbtn{
