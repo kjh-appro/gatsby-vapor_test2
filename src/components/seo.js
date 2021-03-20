@@ -11,15 +11,6 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 
-
-$(function() { 
-$(window).scroll(function() { 
-  if ($(this).scrollTop() > 250) { 
-  $('#topBtn').fadeIn(); } else { $('#topBtn').fadeOut(); } }); 
-  $("#topBtn").click(function() { $('html, body').animate({ scrollTop : 0 
-  }, 400); }); })
-
-
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
