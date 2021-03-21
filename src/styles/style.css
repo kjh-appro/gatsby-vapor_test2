@@ -16,13 +16,60 @@
 }
 
 /* Layout-Header */
-.header-container {
+
+.header-table-lightA {
     display: flex;
     position: fixed;
     align-items: baseline;
     text-align: center;
     margin: 0px 0em;   
-    background-image: 'header-img.png';
+    height: 59px;
+    width: 100%;
+    float: left;
+    background-color: rgba(0,0,0);
+    left: 0;
+    right: 0;
+}
+.header-table-lightB {
+    display: flex;
+    position: fixed;
+    align-items: baseline;
+    text-align: center;
+    margin: 0px 0em;   
+    height: 59px;
+    width: 100%;
+    float: left;
+    background-color: rgba(81,81,81);
+    left: 0;
+    right: 0;
+}
+.header-table-lightC {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    margin: 0px 0em;   
+    height: 59px;
+    width: 100%;
+    float: left;
+    left: 0;
+    right: 0;
+}
+.header-table-heavy {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    margin: 0px 0em;   
+    height: 400px;
+    width: 100%;
+    float: left;
+    left: 0;
+    right: 0;
+}
+.header-container {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    margin: 0px 0em;   
     height: 400px;
     width: 100%;
     float: left;
@@ -56,6 +103,8 @@
     white-space: nowrap;
     letter-spacing: 0em;
 }
+
+
 
 
 #aside-bar {
