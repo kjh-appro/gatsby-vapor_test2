@@ -43,8 +43,9 @@
     left: 0;
     right: 0;
 }
-.header-table-lightC {
+#header-table-lightC {
     display: flex;
+    position: relative;
     align-items: baseline;
     text-align: center;
     margin: 0px 0em;   
@@ -54,8 +55,9 @@
     left: 0;
     right: 0;
 }
-.header-table-heavy {
+#header-table-heavy {
     display: flex;
+    position: relative;
     align-items: baseline;
     text-align: center;
     margin: 0px 0em;   
@@ -67,6 +69,7 @@
 }
 .header-container {
     display: flex;
+    position: fixed;
     align-items: baseline;
     text-align: center;
     margin: 0px 0em;   
@@ -82,6 +85,14 @@
     }
     #header-nav-first {
         margin-left: 0em;
+    }
+
+    .header-table-lightA  {
+        flex-wrap: wrap;
+    }
+
+    .header-table-lightB {
+        flex-wrap: wrap;
     }
 }
 
