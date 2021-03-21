@@ -22,7 +22,7 @@
     align-items: baseline;
     text-align: center;
     margin: 0px 0em;   
-    background-color: grey;
+    background-image: './src/images/header-img.png';
     width: 100%;
     float: left;
     left: 0;
