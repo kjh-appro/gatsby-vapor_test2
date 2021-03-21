@@ -41,7 +41,7 @@ body.light {
 body.dark {
   --color-bg: rgba(0, 0, 0, 0.9);
   --color-font: rgba(255, 255, 255, 0.8);
-  --color-postcard: rgba(255, 255, 255, 0.1);
+  --color-postcard:white;
 
   --color-blue: rgb(10, 132, 255);
   --color-green: rgb(48, 209, 88);
