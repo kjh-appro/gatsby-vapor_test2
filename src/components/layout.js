@@ -34,23 +34,13 @@ class Layout extends Component {
     return (
       <div className="site-container">
         <div className="header-container">
-          <div className="header-table-lightA">
-          test1
-          </div>
-          <div className="header-table-lightB">
-          test1
-          <Link
-            className="header-title"
-            to={`/`}
-          >
-            {title}
-          </Link>
-          </div>
-          <div className="header-table-heavy">
+          <hr className="header-table-lightA">Light</hr>
+          <hr className="header-table-lightB">SEARCH TAG TYGF</hr>
+        </div>
+          <div ID="header-table-heavy">
           <img src={ require('./src/images/header-img.png') } />
-          </div>
-          <div className="header-table-lightc">
-            <div className="nav-container">
+           </div>
+           <div ID="header-table-lightC">
             <ul className="header-nav">
               <li id="header-nav-first"><Link to={`/tags`}>Tags</Link></li>
               <li><Link to={`/search`}>Search</Link></li>
@@ -60,8 +50,7 @@ class Layout extends Component {
               <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
               <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
-          </div></div>
-        </div>
+            </div>
         <div ID="aside-bar" onClick="window.scrollTo(0,0);">
         <li><a href="#">TOP1</a></li>
         <li><a href="#">TOP2</a></li>
