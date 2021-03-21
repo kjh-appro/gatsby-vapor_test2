@@ -38,7 +38,7 @@ class Layout extends Component {
           <hr ID="header-table-lightB">SEARCH TAG TYGF</hr>
         </div>
         <div ID="header-table-heavy">
-          <img src={ require('./src/images/header-img.png') } />
+          <img src={ require('header-img.png') } />
            </div>
            <div ID="header-table-lightC">
             <ul className="header-nav">
