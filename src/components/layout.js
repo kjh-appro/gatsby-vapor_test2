@@ -6,7 +6,6 @@ class Layout extends Component {
   render() {
     const { title, children} = this.props
     const toggler = (
-      <div className="header-1">
       <div className="toggler">
         <ThemeToggler>{({ theme, toggleTheme }) => (
           <label className="tog">
@@ -29,7 +28,6 @@ class Layout extends Component {
             )}
           </label>
         )}</ThemeToggler>
-      </div>
       </div>
     )
 
@@ -57,11 +55,7 @@ class Layout extends Component {
         <div ID="aside-bar" onClick="window.scrollTo(0,0);">
         <li><a href="#">TOP1</a></li>
         <li><a href="#">TOP2</a></li>
-    <div className="header-2">
-    <img src={ require('./src/images/header-img.png') } />
-    </div>
-        
-      </div>
+          </div>
         <main>{children}</main>
         <div className="footer">
           <div className="dropup">
