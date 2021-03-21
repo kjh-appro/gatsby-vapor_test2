@@ -17,7 +17,7 @@
 
 /* Layout-Header */
 
-.header-table-lightA {
+#header-table-lightA {
     display: flex;
     position: fixed;
     align-items: baseline;
@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
 }
-.header-table-lightB {
+#header-table-lightB {
     display: flex;
     position: fixed;
     align-items: baseline;
@@ -87,11 +87,11 @@
         margin-left: 0em;
     }
 
-    .header-table-lightA  {
+    #header-table-lightA  {
         flex-wrap: wrap;
     }
 
-    .header-table-lightB {
+    #header-table-lightB {
         flex-wrap: wrap;
     }
 }
