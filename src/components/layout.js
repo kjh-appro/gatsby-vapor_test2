@@ -34,10 +34,10 @@ class Layout extends Component {
     return (
       <div className="site-container">
         <div className="header-container">
-          <hr className="header-table-lightA">Light</hr>
-          <hr className="header-table-lightB">SEARCH TAG TYGF</hr>
+          <hr ID="header-table-lightA">Light</hr>
+          <hr ID="header-table-lightB">SEARCH TAG TYGF</hr>
         </div>
-          <div ID="header-table-heavy">
+        <div ID="header-table-heavy">
           <img src={ require('./src/images/header-img.png') } />
            </div>
            <div ID="header-table-lightC">
